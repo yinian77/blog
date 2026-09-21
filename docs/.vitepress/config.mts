@@ -12,7 +12,7 @@ import { blogTheme } from "./blog-theme";
 
 // Vitepress 默认配置
 // 详见文档：https://vitepress.dev/reference/site-config
-const base = '/';
+const base = '/blog/';
 
 export default defineConfig({
   base,
@@ -97,7 +97,7 @@ export default defineConfig({
     socialLinks: [
       {
         icon: "github",
-        link: "https://github.com/liuqi0128",
+        link: "https://github.com/yinian77",
       },
     ],
   },

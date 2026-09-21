@@ -10,7 +10,7 @@ tag:
 
 ## 项目介绍
 
-[hello-agents](https://github.com/liuqi0128/hello-agents) 是我在学习 Agent 过程中维护的 Node.js 实践项目。项目参考了 Datawhale 的 Python 项目 
+[hello-agents](https://github.com/yinian77/hello-agents) 是我在学习 Agent 过程中维护的 Node.js 实践项目。项目参考了 Datawhale 的 Python 项目 
 [Hello-Agents](https://github.com/datawhalechina/Hello-Agents)，并将相关教程与示例改写为基于 Node.js 20+ 和 ESM 的 JavaScript 版本。
 
 这个项目并非原项目的官方移植版本，主要目的是使用前端开发者熟悉的 JavaScript 技术栈理解 Agent 的核心概念，降低从前端开发进入 AI Agent 领域的学习门槛。
@@ -71,7 +71,7 @@ hello-agents/
 ## 运行项目
 
 ```bash
-git clone https://github.com/liuqi0128/hello-agents.git
+git clone https://github.com/yinian77/hello-agents.git
 cd hello-agents
 pnpm install
 pnpm run dev
