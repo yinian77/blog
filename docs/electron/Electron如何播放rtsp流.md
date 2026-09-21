@@ -18,7 +18,7 @@ tag:
 3. ui层发起 WebSocket 连接, WebSocket 服务中使用 ffmpeg 命令将 rtsp 流转换为 flv 流
 4. ui层的播放组件使用 flv.js 播放 flv 流
 
-![alt text](img/ffmpeg_rtsp.png)
+![alt text](/i/2026/09/21/6ab099f7d38e4.png)
 
 ## 3.代码实现
 

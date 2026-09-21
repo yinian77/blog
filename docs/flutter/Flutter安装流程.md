@@ -8,48 +8,48 @@ tag:
 
 
 ## Fluter 环境安装准备工具
-![image.png](./img/flutter%20install/1.jpg)
+![image.png](/i/2026/09/21/6ab099f8a124c.jpg)
 
 ### 1.  第一步先安装java sdk,安装完成后进行系统环境变量配置,并在cmd 运行java查看安装是否成功
 
-![image.png](./img/flutter%20install/2.jpg)
+![image.png](/i/2026/09/21/6ab099fbc7a62.jpg)
 
-![image.png](./img/flutter%20install/3.jpg)
+![image.png](/i/2026/09/21/6ab099fea382a.jpg)
 
 ### 2 安装 android-studio
-![image.png](./img/flutter%20install/4.jpg)
+![image.png](/i/2026/09/21/6ab099feea075.jpg)
 
 > 在android-studio安装完成后,安装下Dart 和 Flutter插件,重启下android-studio,
 
-![image.png](./img/flutter%20install/5.jpg)
+![image.png](/i/2026/09/21/6ab099ff3754e.jpg)
 
 > 这样就可以看见有创建Flutter项目选项了
 
-![image.png](./img/flutter%20install/6.jpg)
+![image.png](/i/2026/09/21/6ab099ff7750e.jpg)
 
 ### 3.  安装flutter sdk
 > 只需要将flutter\_windows\_3.24.5-stable.zip压缩文件夹就行,配置flutter国内镜像,一样在环境变量中新建变量进行设置
 
-![image.png](./img/flutter%20install/7.jpg)
-![image.png](./img/flutter%20install/8.jpg)
+![image.png](/i/2026/09/21/6ab099ffb2ef8.jpg)
+![image.png](/i/2026/09/21/6ab09a0005a0f.jpg)
   
 ```
 PUB_HOSTED_URL :  https://pub.flutter-io.cn 
 FLUTTER_STORAGE_BASE_URL : https://storage.flutter-io.c
 ```
 
-![image.png](./img/flutter%20install/9.jpg)
-![image.png](./img/flutter%20install/10.jpg)
+![image.png](/i/2026/09/21/6ab09a0035dec.jpg)
+![image.png](/i/2026/09/21/6ab099f8e5358.jpg)
 
 ### 5. flutter doctor  检测安装环境
 
-![image.png](./img/flutter%20install/11.jpg)
+![image.png](/i/2026/09/21/6ab099f937063.jpg)
 
 > Android的都环境出现 cmdline-tools component is missing错误时,在android-studio 把下面红圈的sdk下载一下就行
 
-![image.png](./img/flutter%20install/12.jpg)
+![image.png](/i/2026/09/21/6ab099f985bfd.jpg)
 
-![image.png](./img/flutter%20install/13.jpg)
+![image.png](/i/2026/09/21/6ab099f9dcd3f.jpg)
 
 ```
 flutter config --android-sdk E:\AndroidSdk  
@@ -60,41 +60,41 @@ flutter config --android-sdk E:\AndroidSdk
 ### 6.Windows 桌面开发(可跳过)
 > 当然你准备使用Flutter桌面端开发需求,需要安装Visual Studio
 
-![image.png](./img/flutter%20install/14.jpg)
+![image.png](/i/2026/09/21/6ab099fa2cdea.jpg)
 
 > 在安装时我只需要安装C++ 桌面开发选项,以及自己对应的系统sdk版本,W11的就选W11最新版本,W10也是一样不要串版本了,勾选完直接安装就行
 
-![image.png](./img/flutter%20install/15.jpg)
+![image.png](/i/2026/09/21/6ab099fa6081a.jpg)
 
 > 这时我们再去运行 flutter doctor 命令时,flutter环境应该全都是正确的
 
-![image.png](./img/flutter%20install/16.jpg)
+![image.png](/i/2026/09/21/6ab099fab5c6d.jpg)
 
 ### 7.创建Flutter项目
 
-![image.png](./img/flutter%20install/17.jpg)
+![image.png](/i/2026/09/21/6ab099fb02ef1.jpg)
 
-![image.png](./img/flutter%20install/18.jpg)
+![image.png](/i/2026/09/21/6ab099fb475e7.jpg)
 
-![image.png](./img/flutter%20install/19.jpg)
+![image.png](/i/2026/09/21/6ab099fb8e187.jpg)
 
 > 基本的flutter项目目录 ,但是我们使用android-studio 重新打开这个项目下的android 目录,才会有调试的功能
-![image.png](./img/flutter%20install/20.jpg)
+![image.png](/i/2026/09/21/6ab099fc063ae.jpg)
 > 这里再打开android 目录后,android-studio 会下载 Gradle 过程有点慢,等它下载完成
-![image.png](./img/flutter%20install/21.jpg)
+![image.png](/i/2026/09/21/6ab099fc4e56b.jpg)
 
 
 > 只有它下载完成,才会有调试的功能,没有下载完成时,这些按钮都是灰色的
-![image.png](./img/flutter%20install/22.jpg)
-![image.png](./img/flutter%20install/23.jpg)
+![image.png](/i/2026/09/21/6ab099fc88907.jpg)
+![image.png](/i/2026/09/21/6ab099fcc1587.jpg)
 
 
 ### 8. VS code 开发插件安装
-![image.png](./img/flutter%20install/24.jpg)
+![image.png](/i/2026/09/21/6ab099fd11d2c.jpg)
 
-![image.png](./img/flutter%20install/25.jpg)
+![image.png](/i/2026/09/21/6ab099fd47124.jpg)
 
-![image.png](./img/flutter%20install/26.jpg)
+![image.png](/i/2026/09/21/6ab099fd7ce22.jpg)
 
 
 ## Fluter 项目运行
@@ -109,11 +109,11 @@ flutter config --android-sdk E:\AndroidSdk
     flutter build apk    //打包项目成apk文件
 ```
 
-![image.png](./img/flutter%20install/27.jpg)
+![image.png](/i/2026/09/21/6ab099fdb8d02.jpg)
 
-![image.png](./img/flutter%20install/28.jpg)
+![image.png](/i/2026/09/21/6ab099fe173f3.jpg)
 
-![image.png](./img/flutter%20install/29.jpg)
+![image.png](/i/2026/09/21/6ab099fe598ab.jpg)
 ```
 在运行时通过热键进行调试命令:
 

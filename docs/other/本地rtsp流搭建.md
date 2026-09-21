@@ -12,7 +12,7 @@ category: 笔记
 1. 访问[ffmpeg-8.0.1-full\_build.7z](https://www.gyan.dev/ffmpeg/builds/) ,下载ffmpeg-8.0.1-full_build.7z
 2. 解压到任意目录
 3. 将ffmpeg.exe所在目录添加到环境变量
-![image.png](./img/rtsp/1.png)
+![image.png](/i/2026/09/21/6ab099f821776.png)
 
 4. 在命令行中运行 **ffmpeg -version**，确认 ffmpeg 是否安装成功。
 ### 1.2 mediamtx安装
@@ -67,7 +67,7 @@ rtmpServerCert: server.crt
 ```bash
 ffmpeg -re -stream_loop -1 -i test_audio.mp4 -c copy -f rtsp rtsp://127.0.0.1:8554/live
 ```
-![image.png](./img/rtsp/2.png)
+![image.png](/i/2026/09/21/6ab099f860b94.png)
 
 3. 最后使用 **VLC 播放器** ,加载 **rtsp://127.0.0.1:8554/live** 即可播放
 

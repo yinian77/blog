@@ -2,6 +2,7 @@ import { defineConfig } from "vitepress";
 
 // 导入主题的配置
 import { blogTheme } from "./blog-theme";
+import { rewriteLskySrc } from "./lsky";
 
 // 如果使用 GitHub/Gitee Pages 等公共平台部署
 // 通常需要修改 base 路径，通常为“/仓库名/”
@@ -22,6 +23,22 @@ export default defineConfig({
   title: "一念随笔",
   description: "一念的随笔",
   lastUpdated: true,
+  markdown: {
+    config(md) {
+      const render =
+        md.renderer.rules.image ||
+        ((tokens, idx, options, _env, self) =>
+          self.renderToken(tokens, idx, options));
+      md.renderer.rules.image = (tokens, idx, options, env, self) => {
+        const token = tokens[idx];
+        const i = token.attrIndex("src");
+        if (i >= 0 && token.attrs) {
+          token.attrs[i][1] = rewriteLskySrc(token.attrs[i][1]);
+        }
+        return render(tokens, idx, options, env, self);
+      };
+    },
+  },
   // 详见：https://vitepress.dev/zh/reference/site-config#head
   head: [
     // 配置网站的图标（显示在浏览器的 tab 上）
