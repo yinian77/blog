@@ -13,7 +13,8 @@ import { rewriteLskySrc } from "./lsky";
 
 // Vitepress 默认配置
 // 详见文档：https://vitepress.dev/reference/site-config
-const base = '/blog/';
+// Docker/Nginx 部署在根路径
+const base = '/';
 
 export default defineConfig({
   base,
